@@ -1,5 +1,4 @@
 import type { DocsThemeConfig } from "nextra-theme-docs"
-import { SharedHeader } from "./components/shared-header"
 
 const config: DocsThemeConfig = {
   logo: (
@@ -22,9 +21,6 @@ const config: DocsThemeConfig = {
   },
   search: {
     placeholder: "Search documentation...",
-  },
-  navbar: {
-    component: SharedHeader,
   },
   sidebar: {
     titleComponent({ title, type }) {

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Badge } from "@/components/ui/badge"
-import { Search, ChevronDown, Sun, Moon, Monitor } from "lucide-react"
+import { Search, ChevronDown, Sun, Moon, Monitor } from 'lucide-react'
 import { useTheme } from "next-themes"
 import Link from "next/link"
 
@@ -153,6 +153,11 @@ export function SharedHeader({ currentPath = "/" }: SharedHeaderProps) {
             {/* Showcase Link */}
             <Link href="/showcase" className="text-gray-600 hover:text-gray-900 transition-colors">
               Showcase
+            </Link>
+
+            {/* Content Link */}
+            <Link href="/content" className="text-gray-600 hover:text-gray-900 transition-colors">
+              Content
             </Link>
           </div>
         </div>
