@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/gra-core-platform/docs/tree/main",
   footer: {
-    text: "© 2024 GRA Core Platform. All rights reserved.",
+    content: "© 2024 GRA Core Platform. All rights reserved.",
   },
   search: {
     placeholder: "Search documentation...",
@@ -34,16 +34,11 @@ const config: DocsThemeConfig = {
     backToTop: true,
   },
   editLink: {
-    text: "Edit this page on GitHub →",
+    content: "Edit this page on GitHub →",
   },
   feedback: {
     content: "Question? Give us feedback →",
     labels: "feedback",
-  },
-  useNextSeoProps() {
-    return {
-      titleTemplate: "%s – GRA Core Platform",
-    }
   },
   head: (
     <>
